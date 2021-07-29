@@ -2,8 +2,8 @@
   "name": "@cloudgraph/cg-provider-aws",
   "version": "0.0.1",
   "description": "cloud-graph provider plugin for AWS used to fetch AWS cloud data.",
-  "main": "dist/services/index.js",
-  "types": "dist/services/index.d.ts",
+  "main": "dist/src/services/index.js",
+  "types": "dist/src/services/index.d.ts",
   "author": "AutoCloud",
   "license": "MIT",
   "scripts": {
@@ -19,7 +19,7 @@
     "graphql": "^15.5.1",
     "lodash": "^4.17.21",
     "pino": "^6.11.3",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "1.21.7",
