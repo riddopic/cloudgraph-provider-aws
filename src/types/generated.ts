@@ -381,6 +381,8 @@ export type AwsCloudFormationStack = {
   rootId?: Maybe<Scalars['String']>;
   stackDriftInfo?: Maybe<AwsCloudFormationStackDriftInfo>;
   stackDriftList?: Maybe<Array<Maybe<AwsCloudFormationStackDriftList>>>;
+  parentStack?: Maybe<Array<Maybe<AwsCloudFormationStack>>>;
+  rootStack?: Maybe<Array<Maybe<AwsCloudFormationStack>>>;
 };
 
 export type AwsCloudFormationStackAutoDeploymentConfig = {

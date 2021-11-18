@@ -91,7 +91,7 @@ export default {
   [services.efs]: EFS,
   [services.efsMountTarget]: EfsMountTarget,
   [services.eip]: EIP,
-  [services.eksCluster]: EKSCluster,
+  [services.eksCluster]: EksCluster,
   [services.elasticBeanstalkApp]: ElasticBeanstalkApp,
   [services.elasticBeanstalkEnv]: ElasticBeanstalkEnv,
   [services.elastiCacheCluster]: ElastiCacheCluster,

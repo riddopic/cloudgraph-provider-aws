@@ -6,7 +6,7 @@ import getConnections from './connections'
 import mutation from './mutation';
 
 export default class AwsSubnet extends BaseService implements Service {
-  format = format.bind(this);
+  format = format.bind(this)
 
   getConnections = getConnections.bind(this)
 
